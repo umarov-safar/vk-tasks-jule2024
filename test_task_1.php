@@ -8,9 +8,9 @@
 function calculateFactorial(int $number): int {
   if ($number === 0) {
     return 1;
-  } else {
-    return (int)($number * calculateFactorial($number - 1));
   }
+  
+  return (int)($number * calculateFactorial($number - 1));
 }
 
 /**
